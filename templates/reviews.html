@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Review Sentiment Graph</title>
+</head>
+<body>
+    <h1>Review Sentiments</h1>
+    
+    <!-- Display Plotly graph -->
+    <div>
+        {{ graph_html|safe }}
+    </div>
+    
+    <h2>Customer Reviews</h2>
+    <ul>
+        {% for review in reviews %}
+            <li>{{ review }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
