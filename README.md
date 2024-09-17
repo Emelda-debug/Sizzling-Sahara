@@ -1,5 +1,8 @@
 This README provides an overview of the Sizzlin Sahara Steakhouse Chatbot project, including its functionalities, dependencies, usage instructions, and contribution guidelines.
 
+https://sizzling-sahara.onrender.com/
+That is the link to the live site
+
 Background
 THis is a Sizzlin Sahara, a fictional restaurant that is afrocentric
 The purpose of this website is to enhance customer experience on the site
