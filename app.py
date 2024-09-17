@@ -12,6 +12,7 @@ import re
 import tiktoken
 import plotly.io as pio
 import plotly.express as px
+from waitress import serve
 
 REVIEWS_FILE = 'reviews.json'
 RESERVATIONS_FILE = 'reservations.json'
@@ -283,4 +284,4 @@ def confirm_reservation(reservation):
 
 
 if __name__ == '__main__':
-    app.run(debug=True, port=8000)
+    serve(app, host="0.0.0.0", port=8000)
